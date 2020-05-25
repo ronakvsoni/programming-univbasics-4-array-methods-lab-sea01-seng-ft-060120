@@ -1,11 +1,8 @@
 chocales_a = ["snickers","Kit-Kat","zarsey's"]
-p chocales_a
-p chocales_a.sort
+chocolates = ["snickers","Kit-Kat","Harsey's","Skittles","snickers"]
 
-
-
-def using_sort(array)
- array.sort
-array
+def using_include(array, element)
+  array.include?(element)
+  using_include
 end
-p using_sort(chocales_a)
+p using_include(chocolates,"m&m")
